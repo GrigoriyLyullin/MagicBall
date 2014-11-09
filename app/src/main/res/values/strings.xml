@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Application name-->
+    <string name="app_name">MagicBall</string>
+
+    <!-- Welcome messages-->
+    <string name="viaShake">Ask your question\nand\nshake!</string>
+    <string name="viaMenu">Ask your question\nand\ntap!</string>
+
+    <!-- Descriptions for ImageViews -->
+    <string name="magicBall_back_description">MagicBall back side</string>
+
+    <!-- Menu -->
+    <string name="action_settings">Settings</string>
+    <string name="action_shake">Shake</string>
+    <string name="action_back">Back</string>
+
+    <!--Settings fields-->
+    <!--Vibration-->
+    <string name="vibration_summary">Turn vibrate on or off</string>>
+    <string name="vibration_title">Vibration</string>
+    <!--Sensitivity-->
+    <string name="sensitivity_dialogTitle">Enter sensitivity (from 0.1 to 5.0)</string>
+    <string name="sensitivity_summary">Sets sensitivity of accelerometer</string>
+    <string name="sensitivity_title">Accelerometer sensitivity</string>
+    <!--Shake count-->
+    <string name="shakeCount_dialogTitle">Enter count of shake (from 1 to 10):</string>
+    <string name="shakeCount_summary">Sets number of shakes</string>
+    <string name="shakeCount_title">Shake count</string>
+
+    <!--Error messages-->
+    <string name="accelerometer_error">Sensitivity should be between 0.0 to 5.0</string>
+    <string name="shakeCount_error">Shake counts should be between 1 to 10</string>
+
+    <!--Activities names-->
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Answers -->
+    <string-array name="magicball_answers">
+
+        <!-- Positive -->
+        <item>It is\ncertain</item>
+        <item>It is\ndecidedly\nso</item>
+        <item>Without\na\ndoubt</item>
+        <item>Yes\n—\ndefinitely</item>
+        <item>You may rely\non it</item>
+        <item>As I see it,\nYES</item>
+        <item>Most\nlikely</item>
+        <item>Outlook\ngood</item>
+        <item>YES</item>
+        <item>Signs point\nto\nYES</item>
+
+        <!-- Neutral -->
+        <item>Reply hazy\ntry again</item>
+        <item>Ask again\nlater</item>
+        <item>Better not tell\nyou now</item>
+        <item>Cannot predict\nnow</item>
+        <item>Concentrate\nand\nask again</item>
+
+        <!-- Negative -->
+        <item>Don\'t count\non it</item>
+        <item>My reply\nis\nNO</item>
+        <item>My sources\nsay\nNO</item>
+        <item>Outlook\nnot so\ngood</item>
+        <item>Very\ndoubtful</item>
+    </string-array>
+</resources>

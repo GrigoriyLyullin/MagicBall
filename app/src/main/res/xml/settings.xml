@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="vibrationPref"
+        android:summary="@string/vibration_summary"
+        android:title="@string/vibration_title" />
+
+    <EditTextPreference
+        android:defaultValue="1.0"
+        android:dialogTitle="@string/sensitivity_dialogTitle"
+        android:inputType="numberDecimal"
+        android:key="accelerometerSensPref"
+        android:summary="@string/sensitivity_summary"
+        android:title="@string/sensitivity_title" />
+
+    <EditTextPreference
+        android:defaultValue="3"
+        android:dialogTitle="@string/shakeCount_dialogTitle"
+        android:inputType="number"
+        android:key="shakeCountPref"
+        android:summary="@string/shakeCount_summary"
+        android:title="@string/shakeCount_title" />
+
+
+</PreferenceScreen>

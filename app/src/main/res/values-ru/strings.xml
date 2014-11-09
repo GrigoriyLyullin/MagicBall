@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Application name-->
+    <string name="app_name">Магический шар</string>
+
+    <!-- Welcome messages-->
+    <string name="viaShake">Задай вопрос\nи\nтряси!</string>
+    <string name="viaMenu">Задай вопрос\nи\nтапни!</string>
+
+    <!-- Descriptions for ImageViews -->
+    <string name="magicBall_back_description">Оборотная сторона магического шара</string>
+
+    <!-- Menu -->
+    <string name="action_settings">Настройки</string>
+    <string name="action_shake">Трясти</string>
+    <string name="action_back">Назад</string>
+
+    <!--Settings fields-->
+    <!--Vibration-->
+    <string name="vibration_summary">Включить или выключить вибрацию</string>>
+    <string name="vibration_title">Вибрация</string>
+    <!--Sensitivity-->
+    <string name="sensitivity_dialogTitle">Введите чувствительность (от 0.1 до 5.0):</string>
+    <string name="sensitivity_summary">Настройка чувствительности акселерометра</string>
+    <string name="sensitivity_title">Чувствительность акселерометра</string>
+    <!--Shake count-->
+    <string name="shakeCount_dialogTitle">Введите количество встряхиваний (от 1 до 10):</string>
+    <string name="shakeCount_summary">Настройка количества встряхиваний</string>
+    <string name="shakeCount_title">Количество встряхиваний</string>
+
+    <!--Error messages-->
+    <string name="accelerometer_error">Чувствительность должна быть в интервале от 0.0 до 5.0</string>
+    <string name="shakeCount_error">Количество встрясков должно быть в интервале от 1 до 10</string>
+
+    <!--Activities names-->
+    <string name="title_activity_settings">Настройки</string>
+
+    <!-- Answers -->
+    <string-array name="magicball_answers">
+
+        <!-- Positive -->
+        <item>Бесспорно</item>
+        <item>Это\nопределенно\nтак</item>
+        <item>Без\nсомнений</item>
+        <item>Определенно\n—\nДА</item>
+        <item>Можешь быть\nв этом\nуверен</item>
+        <item>Мне кажется\n-\nДА</item>
+        <item>Вероятнее\nвсего</item>
+        <item>Хорошие\nперспективы</item>
+        <item>ДА</item>
+        <item>Знаки говорят\nДА</item>
+
+        <!-- Neutral -->
+        <item>Пока не ясно,\nпопробуй снова</item>
+        <item>Спроси\nпозже</item>
+        <item>Лучше сейчас\nтебе\nне рассказывать</item>
+        <item>Не могу\nсейчас\nпредсказать</item>
+        <item>Сконцентрируйся\nи\nспроси снова</item>
+
+        <!-- Negative -->
+        <item>Даже\nне думай</item>
+        <item>Мой ответ\n-\nНЕТ</item>
+        <item>Мой источники\nговорят\nНЕТ</item>
+        <item>Перспективы\nне очень\nхорошие</item>
+        <item>Весьма\nсомнительно</item>
+    </string-array>
+</resources>
