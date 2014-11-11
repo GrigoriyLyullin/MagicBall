@@ -15,6 +15,7 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.view.animation.AnimationUtils;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -31,6 +32,8 @@ public class MainActivity extends ActionBarActivity implements
     private ImageView magicBall_back;
     private TextView magicBall_answer;
 
+    private Button settingsButton;
+
     private int shakeCount = 0;
     private float[] previousValues;
 
@@ -43,6 +46,14 @@ public class MainActivity extends ActionBarActivity implements
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         setContentView(R.layout.activity_main);
+
+        settingsButton = (Button) findViewById(R.id.settings_button);
+        settingsButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(view.getContext(), SettingsActivity.class));
+            }
+        });
 
         settings = getSharedPreferences(Constants.APP_PREFERENCES,
                 MainActivity.MODE_PRIVATE);

@@ -6,13 +6,13 @@
     android:gravity="center"
     android:orientation="vertical"
     tools:context="com.lyullin.grisha.magicball.MainActivity"
-    tools:ignore="MergeRootFrame"
-    android:background="@drawable/interstate60_background3">
+    tools:ignore="MergeRootFrame">
 
     <ImageView
         android:id="@+id/imageView_magicBall_back"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:contentDescription="@string/magicBall_back_description"
         android:src="@drawable/magic_ball_back_new"></ImageView>
 
@@ -30,5 +30,13 @@
             android:gravity="center"
             android:textColor="@android:color/white"></TextView>
     </LinearLayout>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/action_settings"
+        android:id="@+id/settings_button"
+        android:layout_gravity="right|top" />
 
 </FrameLayout>
