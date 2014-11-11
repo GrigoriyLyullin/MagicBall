@@ -29,8 +29,8 @@ public class MainActivity extends ActionBarActivity implements
     private Sensor accelerometer;
     private Vibrator vibrator;
 
-    private ImageView magicBall_back;
     private TextView magicBall_answer;
+    private ImageView magicBall_back;
 
     private Button settingsButton;
 
