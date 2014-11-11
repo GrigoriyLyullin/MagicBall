@@ -12,6 +12,8 @@
     <string name="magicBall_back_description">Оборотная сторона магического шара</string>
 
     <!-- Menu -->
+
+    https://github.com/GrigoriyLyullin/MagicBall.git
     <string name="action_settings">Настройки</string>
     <string name="action_shake">Трясти</string>
     <string name="action_back">Назад</string>
